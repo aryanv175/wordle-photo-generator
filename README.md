@@ -14,14 +14,14 @@ Rows and their classes:\
 <img width="429" alt="image" src="https://github.com/aryanv175/wordle-photo-generator/assets/91381804/9f8bd542-44e9-4109-ba4e-2d0efef3dbc4">
 
 
-how to know if a tile is empty?
+how to know if a tile is empty? \
 // tile is empty
 tile.dataset.state == 'empty'
 // not empty
 tile.dataset.state == 'correct'
 
 
-How to find background color?
+How to find background color? \
 
 const computedStyles = window.getComputedStyle(tile);
 
