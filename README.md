@@ -41,7 +41,7 @@ What to do for the basic mvp?
 2. check if the row is empy using the dataset
     1. if it is empty end the loop and no need to pint anything.
     2. else: print the appropriate square based on the background color of the current tile.
-3. that should be it for now
+3. display the x/6
 
 features that should be added afterwards
 1. the date and the 'wordle #xxxx' should be displayed
