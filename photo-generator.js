@@ -43,6 +43,13 @@ for(var i = 0; i<6; i++){
     }
 }
 
+// why pop? because for some reason there is an empty element at the end of the list
 row_full.pop()
 console.log(row_full)
+// this will be the number of attempts taken to complete the wordle. this can be displayed in the end to show the number of attempts taken to complete the wordle.
 attempts = i;
+
+
+// for the next part of the code
+// the code should print each element in the list row_full in each div with their id = row<index>
+// one more div should show the number of attempts
