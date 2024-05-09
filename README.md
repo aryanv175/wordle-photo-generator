@@ -34,3 +34,16 @@ console.log('Background color:', backgroundColor);
 grey rgb(58, 58, 60)
 yellow rgb(181, 159, 59)
 green rgb(83, 141, 78)
+
+What to do for the basic mvp?
+
+1. identify all the rows and the tiles using a loop
+2. check if the row is empy using the dataset
+    1. if it is empty end the loop and no need to pint anything.
+    2. else: print the appropriate square based on the background color of the current tile.
+3. that should be it for now
+
+features that should be added afterwards
+1. the date and the 'wordle #xxxx' should be displayed
+2. a remminder to complete the wordle for that day
+3. a button that takes them to wordle website so they can access it conveniently 
