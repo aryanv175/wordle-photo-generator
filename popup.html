@@ -33,8 +33,12 @@
       <div id="row6"></div>
     </div>
     <div id="attempts"></div>
-    <button id="generateButton" onclick="photo_generator()">
+    <button id="generateButton">
       Generate Photo
     </button>
   </body>
+  <script>
+    const generateButton = document.getElementById('generateButton');
+    generateButton.addEventListener('click', photo_generator);
+  </script>
 </html>
