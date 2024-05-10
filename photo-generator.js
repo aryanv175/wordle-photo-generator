@@ -60,11 +60,10 @@ function photo_generator(){
     // for the next part of the code
     // the code should print each element in the list row_full in each div with their id = row<index>
     // one more div should show the number of attempts
-    document.getElementById('row1').textContent = row_full[0];
-    document.getElementById('row2').textContent = row_full[1];
-    document.getElementById('row3').textContent = row_full[2];
-    document.getElementById('row4').textContent = row_full[3];
-    document.getElementById('row5').textContent = row_full[4];
-    document.getElementById('row6').textContent = row_full[5];
-    document.getElementById('attempts').textContent = `${attempts}/6`;
+    for (let i = 0; i < row_full.length; i++) {
+        const rowElement = document.getElementById(`row${i + 1}`);  // Construct id dynamically
+        rowElement.textContent = row_full[i];
+      }
+      
+      document.getElementById('attempts').textContent = `${attempts}/6`;
 }
