@@ -1,4 +1,3 @@
-document.getElementById("generateButton").addEventListener("click", photo_generator);
 
 function photo_generator(){    
     console.log('in script')

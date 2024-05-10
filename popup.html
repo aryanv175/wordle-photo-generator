@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popup</title>
-    <script type="text/javascript" src="photo-generator.js"></script>
   </head>
   <style>
     /* CSS for the hover effect */
@@ -36,7 +35,17 @@
     <button id="generateButton">
       Generate Photo
     </button>
-    <script src="script.js"></script>
   </body>
-  
+  <script type="text/javascript">
+
+    var myButton = document.getElementById('generateButton');
+    
+    myButton.onclick = function(){
+    
+        console.log('button clicked');
+    
+    }
+    
+    
+    </script>
 </html>
