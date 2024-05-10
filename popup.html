@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Popup</title>
-  <script type="text/javascript" src="photo-generator.js"></script>
-</head>
-<body style="height: 256px; width: 256px; text-align: center;">
-  <h1>Hello, Aryan!</h1>
-  <div id="generated-photo" style="margin: 10px;">
-    <div id="row1"></div>
-    <div id="row2"></div>
-    <div id="row3"></div>
-    <div id="row4"></div>
-    <div id="row5"></div>
-    <div id="row6"></div>
-  </div>
-  <div id="attempts"></div>
-  <button onclick="photo_generator()" style="color: white; font-weight: bold; background-color: rgb(83, 141, 78); padding: 15px; border-radius: 100px; border: none;">Generate Photo</button>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <script type="text/javascript" src="photo-generator.js"></script>
+  </head>
+  <style>
+    /* CSS for the hover effect */
+    #generateButton:hover {
+      background-color: rgb(63, 111, 68);
+    }
+
+    #generateButton{
+      color: white; 
+      font-weight: bold; 
+      background-color: rgb(83, 141, 78); 
+      padding: 15px; 
+      border-radius: 100px; 
+      border: none;
+    }
+    
+  </style>
+  <body style="height: 256px; width: 256px; text-align: center;">
+    <h1>Hello, Aryan!</h1>
+    <div id="generated-photo" style="margin: 10px;">
+      <div id="row1"></div>
+      <div id="row2"></div>
+      <div id="row3"></div>
+      <div id="row4"></div>
+      <div id="row5"></div>
+      <div id="row6"></div>
+    </div>
+    <div id="attempts"></div>
+    <button id="generateButton">
+      Generate Photo
+    </button>
+  </body>
 </html>
