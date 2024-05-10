@@ -4,7 +4,6 @@
     "version": "1.0",
     "description": "This extension aims to make shareable photo for your wordle results. No longer do you have to place each emoji everyday, simply click the extension and get the shareable photo generated.",
     "permissions": ["activeTab", "scripting"],
-    "content_security_policy": "script-src 'self' 'sha256-G2c5soPqfBb3ifYJA6TG7PaGcblSHRON2g79gBQ6gXc='",
     "action": {
         "default_popup": "popup.html",
         "default_icon": {

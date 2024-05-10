@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("generateButton").addEventListener("click", photo_generator);
+})
+
+/*
+function Function_Name() { 
+    window.alert('click')
+}
+*/
 
 function photo_generator(){    
     console.log('in script')
@@ -13,7 +22,7 @@ function photo_generator(){
 
     // game board that contains all the rows:
     const board = document.querySelector("#wordle-app-game > div.Board-module_boardContainer__TBHNL > div");
-    console.log(board)
+    window.alert(board)
     // board.children.length = 6 always. because there are always 6 rows
     for(var i = 0; i<6; i++){
         // now we are in the current row
@@ -69,3 +78,4 @@ function photo_generator(){
       
       document.getElementById('attempts').textContent = `${attempts}/6`;
 }
+
