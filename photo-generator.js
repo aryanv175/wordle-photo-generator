@@ -1,3 +1,5 @@
+document.getElementById("generateButton").addEventListener("click", photo_generator);
+
 function photo_generator(){    
     
     // core js logic for the functioning of the extension

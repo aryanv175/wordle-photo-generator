@@ -4,13 +4,15 @@
     "version": "1.0",
     "description": "This extension aims to make shareable photo for your wordle results. No longer do you have to place each emoji everyday, simply click the extension and get the shareable photo generated.",
     "permissions": ["activeTab"],
+    "host_permissions": ["*://www.nytimes.com/*"],
     "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
-      }
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
     }
-  }
+}
+
   
