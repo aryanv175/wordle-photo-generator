@@ -36,17 +36,19 @@ for(var i = 0; i<6; i++){
         }
     }
 
-    row_full.push(row_image)
-
     if (isEmpty){
         break
     }
+
+    row_full.push(row_image)
 }
 
-// why pop? because for some reason there is an empty element at the end of the list
+/* why pop? because for some reason there is an empty element at the end of the list
 if (row_full[-1]== ''){
     row_full.pop()
 }
+
+*/
 
 console.log(row_full)
 // this will be the number of attempts taken to complete the wordle. this can be displayed in the end to show the number of attempts taken to complete the wordle.
