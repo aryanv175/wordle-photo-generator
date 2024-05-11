@@ -3,7 +3,20 @@
 
 This extension aims to make shareable photo for your wordle results. No longer do you have to place each emoji everyday, simply click the extension and get the shareable photo generated. 
 
-Personal notes for development:\
+Debug Notes 11/5/24:
+Problem I am facing: I am using document.queryselector in two different contexts.
+in one part where I am getting board, rows, I am trying to get the code of the wordle page
+but when I do the document.getElementById("generateButton").addEventListener("click", photo_generator); to check when the button is pressed, I am using the code of the extension.
+
+I dont know how to fix this atm lol
+
+so far the idea is to separate the file where I am trying to use the different contexts.
+So in the photo-generator.js file I want to use the code of the wordle website.
+and in the photo-display I want to use the code of the extension.
+
+
+
+Personal notes for development: 9/5/24\ 
 Color: \
 Yellow: #b59f3b emoji: 🟨\
 Green: #538d4e emoji: 🟩\
