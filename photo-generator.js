@@ -1,8 +1,9 @@
+/*
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("generateButton").addEventListener("click", photo_generator);
 })
 
-/*
+
 function Function_Name() { 
     window.alert('click')
 }
@@ -56,7 +57,10 @@ function photo_generator(){
         row_full.push(row_image)
     }
 
-    /* why pop? because for some reason there is an empty element at the end of the list
+    /* this is commented because this was solved by putting the push statement after the 
+    isEmpty check above^
+    
+    why pop? because for some reason there is an empty element at the end of the list
     if (row_full[-1]== ''){
         row_full.pop()
     }
