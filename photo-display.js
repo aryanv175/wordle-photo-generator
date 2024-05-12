@@ -2,7 +2,7 @@
 // the code should print each element in the list row_full in each div with their id = row<index>
 // one more div should show the number of attempts
 
-const photo_generator = require('./photo_generator.js');
+import {photo_generator} from "photo_generator.js";
 
 var photo = [];
 var attempts = 1;

@@ -1,4 +1,4 @@
-function photo_generator(){
+export function photo_generator(){
     console.log('in script')
     // core js logic for the functioning of the extension
 
