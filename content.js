@@ -1,4 +1,15 @@
-console.log('hello')
+console.log('hello');
+
+const b2 = document.querySelector("body > div:nth-child(2) > div > div > div > div > div.Welcome-module_buttonContainer__K4GEw > button:nth-child(3)");
+b2.click();
+
+console.log('clicked play');
+
+const xbutton = document.querySelector("#help-dialog > div > div > button");
+xbutton.click();
+
+console.log('clicked x');
+
 const button = document.createElement("button");
 
 // Set button attributes and styles
@@ -16,5 +27,5 @@ if (heading) {
   heading.appendChild(button);
 }
 
-
+console.log('button added');
 
