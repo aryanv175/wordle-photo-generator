@@ -61,7 +61,7 @@ function addButton (){
 
     console.log('reached end of button function');
 
-    photo_generator();
+    return;
 }
 
 function photo_generator(){
