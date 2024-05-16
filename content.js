@@ -24,6 +24,7 @@ window.onload = () => {
             xbutton.click();
             console.log('Clicked X button');
             // Perform your action here after the button is clicked
+            addButton();
         } else {
             // If the X button is not found, wait and check again
             setTimeout(checkXButton, 1000); // Check again in a second
@@ -33,6 +34,10 @@ window.onload = () => {
     // Start checking for the play button
     check();
 
+    console.log('reached end');
+}
+
+function addButton (){
     console.log('about to add the button');
 
     // Create a button dynamically
@@ -44,6 +49,8 @@ window.onload = () => {
     button.style.borderRadius = "50px";
     button.style.border = "none";
     button.style.margin = "8px";
+    button.style.fontFamily = "Arial";
+    button.style.fontWeight = "bold";
 
     // Append the button to the header once the page is loaded
     const heading = document.querySelector("body > div:nth-child(2) > div > div.App-module_gameContainer__K_CBh > header");
@@ -51,4 +58,6 @@ window.onload = () => {
         heading.appendChild(button);
         console.log('Button added');
     }
+
+    console.log('reached end of button function');
 }
