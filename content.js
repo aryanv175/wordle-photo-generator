@@ -1,4 +1,4 @@
-
+console.log('hello')
 const button = document.createElement("button");
 
 // Set button attributes and styles
