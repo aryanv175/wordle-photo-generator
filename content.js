@@ -3,7 +3,6 @@ console.log('hello');
 window.onload = () => {
 
     console.log('website loaded');
-
     const b2 = document.querySelector("body > div:nth-child(2) > div > div > div > div > div.Welcome-module_buttonContainer__K4GEw > button:nth-child(3)");
     b2.click();
 
