@@ -2,6 +2,7 @@
 // the code should print each element in the list row_full in each div with their id = row<index>
 // one more div should show the number of attempts
 
+/*
 import {photo_generator} from "photo_generator.js";
 
 var photo = [];
@@ -20,7 +21,7 @@ document.getElementById('attempts').textContent = `${attempts}/6`;
 
 
 
-
+*/
 
 /*
 function Function_Name() { 
