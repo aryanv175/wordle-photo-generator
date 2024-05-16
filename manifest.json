@@ -17,7 +17,7 @@
     "content_scripts": [
         {
             "matches": ["https://www.nytimes.com/games/wordle/*"],
-            "js": ["photo-generator.js"] 
+            "js": ["content.js"] 
         }
     ]
 }
