@@ -128,3 +128,5 @@ function photo_generator(){
 
     return row_full, attempts;
 }
+
+// connecting this funtion, also need to make it work with the other button
