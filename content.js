@@ -63,7 +63,7 @@ function addButton (){
 
     console.log('reached end of button function');
 
-    button.addEventListener('click', photo_generator());
+    button.addEventListener('click', photo_generator);
     
 }
 
