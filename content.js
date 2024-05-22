@@ -137,6 +137,7 @@ function photo_generator(){
     div.style.fontWeight = "bold";
     div.style.textAlign = "center";
 
+    board.appendChild(div);
     return row_full, attempts;
 }
 
