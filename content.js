@@ -130,6 +130,13 @@ function photo_generator(){
     // this will be the number of attempts taken to complete the wordle. this can be displayed in the end to show the number of attempts taken to complete the wordle.
     attempts = i;
 
+    const div = document.createElement("div");
+    div.textContent = `${attempts}/6 #WordlePhotoGenerator`;
+    div.style.color = "white";
+    div.style.fontFamily = "Arial";
+    div.style.fontWeight = "bold";
+    div.style.textAlign = "center";
+
     return row_full, attempts;
 }
 
