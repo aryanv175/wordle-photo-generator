@@ -35,6 +35,8 @@ window.onload = () => {
     check();
 
     console.log('reached end');
+
+
 }
 
 function addButton (){
@@ -61,7 +63,7 @@ function addButton (){
 
     console.log('reached end of button function');
 
-    return;
+    button.onclick(photo_generator());
 }
 
 function photo_generator(){
