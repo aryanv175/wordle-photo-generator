@@ -3,6 +3,11 @@
 
 This extension aims to make shareable photo for your wordle results. No longer do you have to place each emoji everyday, simply click the extension and get the shareable photo generated. 
 
+22/5/25 Debug Notes:
+
+All we really need now is either to get a popup or show the image on the extension because the image is being generated on the click of the button!
+
+
 16/5/24 Debug Notes:
 
 Gonna try a new strategy, instead to using the button on the extension, I will insert a button on the page and generate the picture when the user clicks that instead.
