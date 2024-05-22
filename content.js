@@ -81,7 +81,6 @@ function photo_generator(){
 
     // game board that contains all the rows:
     const board = document.querySelector("#wordle-app-game > div.Board-module_boardContainer__TBHNL > div");
-    window.alert(board)
     // board.children.length = 6 always. because there are always 6 rows
     for(var i = 0; i<6; i++){
         // now we are in the current row
