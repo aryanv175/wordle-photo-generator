@@ -10,7 +10,7 @@ window.onload = () => {
             b2.click();
             console.log('clicked play');
             // Once the play button is clicked, check for the X button
-            setTimeout(checkXButton, 1000); // Wait for a second before checking for X button
+            checkXButton() // Wait for a second before checking for X button
         } else {
             // If the play button is not found, wait and check again
             setTimeout(check, 1000); // Check again in a second
