@@ -96,6 +96,8 @@ function photo_generator(){
                 break
             }
 
+            tile.innerHTML = '';
+
             const computedStyles = window.getComputedStyle(tile);
             // Get the background color property from the computed styles
             const backgroundColor = computedStyles.backgroundColor;
