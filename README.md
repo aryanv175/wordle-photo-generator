@@ -3,11 +3,16 @@
 
 This extension aims to make shareable photo for your wordle results. No longer do you have to place each emoji everyday, simply click the extension and get the shareable photo generated. 
 
-22/5/25 Literally 5 mins later:
+22/5/24 Another 10 minutes later!:
+
+Completed!!
+
+
+22/5/24 Literally 5 mins later:
 
 Found such an easier solution, instead of doing anything, just simply remove the innertext from the tiles loool. All I need to do now is to add the number of attempts and the a made with thing for promotion.
 
-22/5/25 Debug Notes:
+22/5/24 Debug Notes:
 
 All we really need now is either to get a popup or show the image on the extension because the image is being generated on the click of the button!
 
